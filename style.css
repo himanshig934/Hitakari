@@ -1,0 +1,275 @@
+@import "tailwindcss";
+
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+  /* Hide scrollbar but keep scroll working */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE & Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+
+
+@media screen and (min-width: 300px) and (max-width: 630px) {
+    
+
+.small-screen{
+display: none;
+}
+
+
+/* form section */
+
+.form-small-screen{
+padding-top: 50px;
+}
+
+.form-divider{
+margin-bottom: 30px;
+max-width: 60px;
+}
+
+.form-heading1{
+    font-size: 22px;
+}
+
+.form-text{
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.form-section{
+    padding: 20px 4px 0px 4px;
+}
+
+
+/* story section */
+
+.our-story-container{
+    display: none;
+}
+
+.our-story-container1{
+
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+
+.our-story-about{
+    padding: 24px;
+    font-size: 12px;
+
+}
+
+.our-story-image{
+    margin-top: -95%;
+}
+
+.our-story-bg{
+    height: 180px;
+}
+
+
+.story-heading{
+    font-size: 16px !important;
+     letter-spacing: 2px;
+}
+
+
+.story-para{
+    margin-bottom: 20px;
+}
+
+.story-heading-padding{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.elephant-top{
+    margin-bottom: -6px;
+}
+
+
+
+
+
+/* membbership section */
+
+.membership-section{
+    margin-top: 100px;
+    width: 100%;
+    
+}
+
+.membership1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.membership-heading{
+    font-size: 18px;
+}
+
+
+.membership-li{
+    font-size: 13px
+
+} 
+
+.membership-main-heading{
+    font-size: 22px;
+}
+
+
+.membership-dots .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+#membership{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.price-text{
+    font-size: 26px;
+}
+
+/* about section */
+
+.about-section{
+    padding: 22px;
+}
+
+
+.about-para{
+    font-size: 12px;
+}
+
+
+.about-heading{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.about-image{
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+  .elephant-1 {
+    height: 14px;
+  }
+
+  .elephant-2 {
+    height: 18px;
+  }
+
+
+  .elephant-sec{
+ top: -15px;
+  }
+    
+
+/* logo carousel */
+
+.logo-carousel{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+
+/* header section */
+
+.small-header{
+    display: none;
+}
+
+
+.header-heading{
+    font-size: 18px;
+}
+
+.header-humberger{
+    font-size: 26px;
+}
+
+
+.header-menu{
+    font-size: 16px;
+}
+
+.header-close-button{
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+
+
+/* banner section */
+
+.banner-section{
+    height: 450px;    
+}
+
+.banner-heading{
+    padding-top: 60px;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.banner-text{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.button{
+    padding: 8px 20px 8px 20px;
+    font-size: 16px;
+
+}
+
+
+/* image section */
+
+.images-text{
+    font-size: 16px;
+    letter-spacing: 4px;
+
+}
+
+.image-main-heading{
+        font-size: 22px;
+}
+
+
+
+
+/* footter section */
+
+.footer-text{
+    font-size: 14px;
+}
+
+.footer-heading{
+font-size: 20px;
+}
+
+
+}
